@@ -1,0 +1,136 @@
+body{
+    font: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+
+}
+
+.nav-bar{
+    color:white;
+    margin-right: 30px;
+    margin-left:30px ;
+    text-decoration: none;
+    font-size:  23px;
+}
+.margin{
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+
+button a{
+    color: black;
+    background-color: #eeeeee;
+    margin: 10px 110px;
+    text-decoration-line: none;
+    
+    
+}
+
+
+.c1{
+    height: 31.25rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.c2{
+    width: 1280px;
+    height: 100%;
+    padding: 64px;
+    display: flex;
+
+}
+
+.c3{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    text-align: left;
+    margin-right: 190px;
+
+}
+
+.imagem{
+    margin:0;
+    width: 558px;
+    height: 372px;
+}
+
+
+h3 {
+    padding-bottom: 20px;
+    font-size: 52px;
+    
+}
+h4 {
+    padding-top: 20px;
+}
+img{
+    margin-bottom: 20px;
+}
+
+#quemsomos{
+    background-color: black;
+    color: white;   
+}
+
+
+#parceiros{
+    background-color: #e8bf7d;
+    color: white;
+
+}
+
+#serviços{
+    background-color: white;
+}
+
+
+.col-lg-6 img{
+    margin-left: 135px;
+
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+   
+}
+
+.text-center a{
+    color: white;
+    
+}
+
+@media(max-width:1200px){
+    button{
+        display:none;
+    }
+
+}
+
+@media(max-width:1100px){
+    .imagem{
+        display:none;
+        
+    }
+    .c2 {
+        width: 60%;
+        padding: 0;
+    }
+    .c3{
+        width: 100%;
+        
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .navbar-nav{
+        display: none;
+    }
+}
